@@ -16,7 +16,7 @@ public class GsonTest {
 	public void testMultiThread() throws Exception {
 		final Gson gson = new Gson();
 
-		for(int requst = 0; requst < 4000; requst++ ) {
+//		for(int requst = 0; requst < 4000; requst++ ) {
 
 			final CountDownLatch startLatch = new CountDownLatch(1);
 			final CountDownLatch finishLatch = new CountDownLatch(10);
@@ -50,8 +50,8 @@ public class GsonTest {
 			finishLatch.await(); // 다른 Thread 처리까지 대기
 
 			assertFalse(failed.get());
-			executor.shutdown();
-		}
+//			executor.shutdown();
+//		}
 	}
 
 	@SuppressWarnings("unused")
