@@ -22,7 +22,7 @@ public class GsonTest {
 
 		ExecutorService executor = Executors.newFixedThreadPool(10);
 
-		for(int requst = 0; requst < 4000; requst++ ) {
+//		for(int requst = 0; requst < 4000; requst++ ) {
 
 			for (int taskCount = 0; taskCount < 10; taskCount++) {
 				executor.execute(new Runnable() {
@@ -46,12 +46,13 @@ public class GsonTest {
 				});
 			}
 
-		}
+			startLatch.countDown(); // Task 완료
+			finishLatch.await(); // 다른 Thread 처리까지 대기
+			
+			assertFalse(failed.get());
+//			executor.shutdown();
+//		}
 
-		startLatch.countDown(); // Task 완료
-		finishLatch.await(); // 다른 Thread 처리까지 대기
-
-		assertFalse(failed.get());
 	}
 
 	@SuppressWarnings("unused")
