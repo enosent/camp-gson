@@ -38,7 +38,7 @@ Version 1.7.2
 
 - <a href="https://groups.google.com/forum/#!topicsearchin/google-gson/once$20create/google-gson/rhIJ4wi5IRE" target="_blank">Gson 인스턴스에 대한 성능 권장 사항</a>
 ```
-cf. Gson Contributor가 과거에 작성한 성능 관련 Thread 일부 내용 번역 내용입니다. 
+cf. 과거에 google-gson group에 올라온 성능 관련 Thread 답변 중 번역 내용
 
 기본 serializers, deserializers 및 instance 생성해서 모두 등록을 하기 때문에 Gson을 생성하는 것은 다소 비싼 작업이다.
 static final 생성자로 기본 list에 저장해 최적화를 시도했다. 
