@@ -1,6 +1,8 @@
 # camp-gson
 Gson Thread-safe test
 
+##### feature-1.2.2 : Thread-safe 관련 Issue 테스트 브랜치
+
 ##### Branch 정보
 + feature-1.2.2 : Thread-safe 관련 Issue 테스트 브랜치
 + feature-2.3.1 : Thread-safe 관련 Issue 수정 확인 테스트 브랜치
