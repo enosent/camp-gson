@@ -2,6 +2,7 @@
 Gson Thread-safe test
 
 ##### feature-2.3.1 : Thread-safe 관련 Issue 수정 확인 테스트 브랜치
+---
 
 ##### Branch 정보
 + feature-1.2.2 : Thread-safe 관련 Issue 테스트 브랜치
@@ -28,7 +29,7 @@ Version 1.7.2
 ##### 그 외 ..
 + <a href="https://github.com/google/gson/issues/613" target="_blank">Issue.613 Document that Gson instances are thread safe </a>
 
-- Version 2.4 에서는 Gson.java Javadoc에 Thread-safe 관련 명시가 되어있습니다.
+- Version 2.4 에서는 Gson.java Javadoc에 Thread-safe 관련 내용이 추가되었습니다.
   + <a href="https://github.com/google/gson/commit/b4978a8062220ae431750d93f76d737e83a5bd89" target="_blank">Updated Gson Javadoc to indicate thread-safety.</a>
 
 - feature-2.3.1 branch 테스트 케이스 및 Release 정보를 참조하면 관련 Thread-safe Issue는 처리가 되어있고, 현재 Version보다 상위 Version 2.4 의 Change log에 Thread 관련 변경 내용은 없었습니다.
