@@ -6,7 +6,7 @@ Gson Thread-safe test
 + feature-2.3.1 : Thread-safe 관련 Issue 수정 확인 테스트 브랜치
 
 ---
-##### Thread 관련 Issue 및 Release 정보
+##### <a href="https://github.com/google/gson/blob/master/CHANGELOG.md" target="_blank">Thread 관련 Issue 및 Release 정보</a>
 
 Version 1.2.3
 - Made Gson thread-safe by fixing Issue 63
@@ -33,8 +33,7 @@ Version 1.7.2
 
 ---
 
-###### <a href="https://github.com/inder123" target="_blank">Inderjeet Singh</a>
-- <a href="https://github.com/google/gson/graphs/contributors" target="_blank">Gson Contributors</a>
+###### <a href='https://github.com/google/gson/graphs/contributors' target='_blank'> Contributor </a> : <a href='https://github.com/inder123' target='_blank'>Inderjeet Singh</a>
 
 - <a href="https://groups.google.com/forum/#!topicsearchin/google-gson/once$20create/google-gson/rhIJ4wi5IRE" target="_blank">Gson 인스턴스에 대한 성능 권장 사항</a>
 ```
